@@ -1,0 +1,31 @@
+# Our default config file.
+baseURL = "http://localhost"
+languageCode = "en-us"
+title = "Amschon90"
+theme = "minimal"
+
+[author]
+  homepage = "https://github.com/Amschon90"
+  name = "Andy Schon"
+
+[params]
+  author = "Andy Schon"
+  description = "This is my blog"
+  githubUsername = "Amschon90"
+  accent = "#2A603B"
+  showBorder = true
+  backgroundColor = "white"
+  font = "Raleway" # should match the name on Google Fonts!
+  highlight = true
+  highlightStyle = "solarized-dark"
+  highlightLanguages = ["java", "python", "yaml"]
+
+[[menu.main]]
+  url = "/"
+  name = "Home"
+  weight = 1
+
+[[menu.main]]
+  url = "/post/"
+  name = "Posts"
+  weight = 2
